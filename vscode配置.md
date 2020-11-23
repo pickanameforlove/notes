@@ -37,3 +37,25 @@ switch各case是在一个作用域里面。
 @="C:\\Users\\lmk\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"
 ```
 
+### 本地git与github同步
+
+github那边先新建一个repo
+
+本地git产生一个ssh  key，添加到github上面
+
+```c++
+//建一个新的本地repo同步。
+echo "# teset" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:pickanameforlove/teset.git
+git push -u origin main
+//push一个已经存在的本地repo
+git remote add origin git@github.com:pickanameforlove/teset.git
+git branch -M main
+git push -u origin main
+
+```
+
