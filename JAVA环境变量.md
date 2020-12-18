@@ -3,3 +3,11 @@
 **CLASSPATH**：告诉JAVA执行环境，在哪些目录可以找到JAVA程序需要的类或者包，也就是说和import，package关键字有关。
 
 **PATH**：存放可执行文件。
+
+
+
+**IDEA 无效的发行版9：**
+
+1. ![1](.\pic\1.png)
+2. ![2](.\pic\2.png)
+3. ![3](.\pic\3.png)

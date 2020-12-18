@@ -12,3 +12,47 @@ make可以编译程序(you can use make with any programming language whose comp
 
 需要makefile这个文件告诉make如何编译和关联程序。
 
+
+
+| content                            | 中文                             |
+| ---------------------------------- | -------------------------------- |
+| standard form                      | 标准型？                         |
+| HCF&LCM,prime factor               | 最大公约数，最小公倍数，主因子？ |
+| ratio&propotion                    | 比例                             |
+| percentage paper1                  | 百分比卷子                       |
+| percentage paper2                  | 百分比卷子2                      |
+| direct&inverse propotion           | 正反比例                         |
+| C1 Indices                         | C1指数                           |
+| index rules                        | 索引规则？？                     |
+| recurring decimals                 | 循环小数                         |
+| compound measures                  | 复合运算                         |
+| surds                              | 无理数？                         |
+| retionalising denominators         | 使分母合理化                     |
+| change the subject                 |                                  |
+| more defficult rearranging formula | 重排公式                         |
+| solving quadratics by factorising  | 通过分解求解二次方               |
+| completing the squares             |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+|                                    |                                  |
+
