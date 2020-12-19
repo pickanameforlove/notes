@@ -122,3 +122,16 @@ def run_MStream(self, documentSet, outputPath, wordList, AllBatchNum):
             print("\tSaving successful!")
 ```
 
+**run_MStreamF**
+
+1. deepcopy自己进行了一份内存的复制，而不是简单的指针引用。
+2. self.BatchSet是存储每个batch属性的一个属性，每个batch里面深拷贝了一些属性，比如D,z,m_z,n_z,n_zv
+3. intialize初始化函数，对~~所有的文档~~（应该是一个batch里面的文档）进行一个初始化，将文档的统计信息放入对应的batch中，并且对文档进行聚簇，对对应的簇的信息进行更新。
+4. word_current[i]表示在第i个batch中的wordno的列表。
+5. m_z表示cluster和簇中文档的数目，
+6. n_zv[cluster] = {},n_zv\[cluster\][wordNo] = wordFreq，簇中单词编号和单词出现频率的一个字典。
+7. n_z[cluster]代表簇中出现的单词总数。
+8. gibbsSampling是在初始化一个簇的文档之后，又进行的迭代更新的操作。
+9. **batchNum**是一个全局变量
+10. **为什么batchNum可以大于max_Batch?**
+11. 
