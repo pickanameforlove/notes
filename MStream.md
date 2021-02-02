@@ -133,5 +133,19 @@ def run_MStream(self, documentSet, outputPath, wordList, AllBatchNum):
 7. n_z[cluster]代表簇中出现的单词总数。
 8. gibbsSampling是在初始化一个簇的文档之后，又进行的迭代更新的操作。
 9. **batchNum**是一个全局变量
-10. **为什么batchNum可以大于max_Batch?**
-11. 
+10. **为什么batchNum可以大于max_Batch?**max_Batch是算法描述的BS，就是内存中需要存的batch数量。
+
+
+
+**MStream算法**
+
+**Input**：第t个batch的所有文档
+
+**Output**：第t个batch的聚簇结果
+
+![MStream](.\pic\MStream.png)
+
+![MStreamF](.\pic\MStreamF.png)
+
+
+
